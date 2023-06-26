@@ -38,7 +38,7 @@
                 <div class="d-grid">
                   <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">Ingresar</button>
                   <div class="text-center">
-                    <a class="small" href="registro.php">Registrate aqui!</a>
+                    <a class="small" href="registro.php">No tienes cuenta? Registrate aqui!</a>
                   </div>
                 </div>
 

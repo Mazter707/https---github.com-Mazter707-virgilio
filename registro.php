@@ -19,7 +19,7 @@
             <!-- Background image for card set in CSS! -->
           </div>
           <div class="card-body p-4 p-sm-5">
-            <h5 class="card-title text-center mb-5 fw-light fs-5">Registrarse</h5>
+            <h5 class="card-title text-center mb-5 fw-light fs-5">Registro</h5>
             <form action="servidor/registro/registrar.php"  method="post">
 
               <div class="form-floating mb-3">
@@ -38,7 +38,7 @@
                 <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase" type="submit">Registrar</button>
               </div>
 
-              <a class="d-block text-center mt-2 small" href="index.php">Ya tienes una cuenta? Ingresa</a>
+              <a class="d-block text-center mt-2 small" href="index.php">Ya tienes una cuenta? Ingresa!</a>
 
               <hr class="my-4">
 

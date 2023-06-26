@@ -5,7 +5,7 @@
         public $usuario = 'root';
         public $password = 'Tec.M1l3n1o.244957';
         public $database = 'loginpoo2023';
-        public $port     = '3307';
+        public $port     = '3306';
 
         public function conectar (){
             return mysqli_connect(
