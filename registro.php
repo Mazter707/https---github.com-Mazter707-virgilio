@@ -34,6 +34,43 @@
                 <label for="password">Password</label>
               </div>
 
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="nombre_completo" name="nombre_completo"
+                 placeholder="Nombre completo" required>
+                <label for="nombre_completo">Nombre completo</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="email" name="email"
+                 placeholder="Email" required>
+                <label for="email">Email</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="celular" name="celular"
+                 placeholder="999 000 00 00" required>
+                <label for="celular">Celular</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="genero" name="genero"
+                 placeholder="Masculino / Femenino" required>
+                <label for="genero">Genero</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="nacimiento" name="nacimiento"
+                 placeholder="Año de nacimiento" required>
+                <label for="nacimiento">Año de nacimiento</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="equipo" name="equipo"
+                 placeholder="Opcional" >
+                <label for="equipo">Equipo</label>
+              </div>
+             
+
               <div class="d-grid mb-2">
                 <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase" type="submit">Registrar</button>
               </div>

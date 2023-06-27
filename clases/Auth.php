@@ -2,13 +2,13 @@
     include "Conexion.php";
 
     class Auth extends Conexion{
-        public function registrar($usuario, $password){
+        public function registrar($usuario, $password, $nombre_completo, $email, $celular, $genero, $nacimiento, $equipo){
             $conexion = parent::conectar();
-            $sql = "INSERT INTO t_usuarios (usuario, password)
-            VALUES (?,?)";
+            $sql = "INSERT INTO t_usuarios (usuario, password, nombre_completo, email, celular, genero, nacimiento, equipo) 
+            VALUES (?,?,?,?,?,?,?,?)";
 
             $query = $conexion->prepare($sql);
-            $query->bind_param("ss", $usuario, $password);
+            $query->bind_param('ssssssss', $usuario, $password, $nombre_completo, $email, $celular, $genero, $nacimiento, $equipo);
             return $query->execute();
         }
 
