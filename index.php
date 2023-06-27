@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,51 +9,58 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="public/css/login.css">
-   
-    <title>Login de usuario!</title>
+
+    <title>laliga | Unidad y Flexibilidad</title>
   </head>
   <body>
-  <div class="container-fluid ps-md-0">
-  <div class="row g-0">
-    <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
-    <div class="col-md-8 col-lg-6">
-      <div class="login d-flex align-items-center py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-9 col-lg-8 mx-auto">
-              <h3 class="login-heading mb-4">Login</h3>
-
-              <!-- Sign In Form -->
-              <form action="servidor/login/logear.php"  method="post">
-                <div class="form-floating mb-3">
-                  <input type="text" class="form-control" name="usuario" id="usuario" placeholder="Usuario">
-                  <label for="usuario">Usuario</label>
-                </div>
-                <div class="form-floating mb-3">
-                  <input type="password" class="form-control" name="password" id="password" placeholder="Password">
-                  <label for="password">Password</label>
-                </div>
-
-                
-
-                <div class="d-grid">
-                  <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">Ingresar</button>
-                  <div class="text-center">
-                    <a class="small" href="registro.php">No tienes cuenta? Registrate aqui!</a>
-                  </div>
-                </div>
-
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+ <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src='https://liga.nettual.com/assets/img/logo-laliga-150x50.svg' alt="..." height="36">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="eventos.php">Eventos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tienda.php">Tienda</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Acceso
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="login.php">Login</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>  
+          <li><a class="dropdown-item" href="perfil.php">Perfil</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="servidor/login/logout.php">Salir</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </div>
-</div>
+</nav>
 
+<!-- Page Content -->
+<div class="container">
+  <h1 class="mt-4">laliga</h1>
+  <p>Unidad y Flexibilidad !</p>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+   
   </body>
 </html>

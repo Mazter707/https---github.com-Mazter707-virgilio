@@ -75,7 +75,7 @@
                 <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase" type="submit">Registrar</button>
               </div>
 
-              <a class="d-block text-center mt-2 small" href="index.php">Ya tienes una cuenta? Ingresa!</a>
+              <a class="d-block text-center mt-2 small" href="login.php">Ya tienes una cuenta? Ingresa!</a>
 
               <hr class="my-4">
 
