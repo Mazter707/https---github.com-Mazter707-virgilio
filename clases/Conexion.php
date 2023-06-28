@@ -2,10 +2,10 @@
     class Conexion {
 
         public $servidor = 'localhost';
-        public $usuario = 'nettualc_mazter707';
-        public $password = 'M4zt3r.n3t';
-        public $database = 'nettualc_laliga';
-        public $port     = '3306';
+        public $usuario = 'root';
+        public $password = 'Tec.M1l3n1o.244957';
+        public $database = 'loginpoo2023';
+        public $port     = '33065';
 
         public function conectar (){
             return mysqli_connect(
