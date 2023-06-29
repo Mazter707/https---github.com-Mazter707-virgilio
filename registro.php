@@ -67,7 +67,7 @@
               <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="equipo" name="equipo"
                  placeholder="Opcional" >
-                <label for="equipo">Equipo</label>
+                <label for="equipo">Equipo (opcional)</label>
               </div>
              
 
