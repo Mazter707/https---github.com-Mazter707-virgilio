@@ -8,7 +8,7 @@
             <div class="row gx-4 gx-lg-5 align-items-center my-5">
                 <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="./assets/img/portada-transformed.jpeg" alt="..." /></div>
                 <div class="col-lg-5">
-                    <h1 class="font-weight-light" style="text-align: center;">laliga</h1>
+                    <h1 class="display-4" style="text-align: center;">laliga</h1>
                     <h5 class="font-weight-light" style="text-align: center;">UNIDAD Y FLEXIBILIDAD</h5>
                     <p>Tu sitio de encuentro con los mejores eventos ciclistas!</p>
                     <p>Sé parte de nosotros y no te pierdas ninguna noticia de las carreras que organizamos.</p>
@@ -63,6 +63,7 @@
                 </div>
             </div>
         </div>
+        
 <!--Aqui inicia el carrusel -->
 
 <div class="container">
