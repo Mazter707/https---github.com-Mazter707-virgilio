@@ -79,7 +79,7 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./assets/img/portada.jpg" class="d-block w-100" alt="Primera imagen">
+              <img src="./assets/img/mexico.jpeg" class="d-block w-100" alt="Primera imagen">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Unidad y Flexibilidad !</h5>
                 <p>Los mejores eventos ciclistas están aquí.</p>
@@ -93,7 +93,14 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="./assets/img/vuelta-espana.png" class="d-block w-100" alt="Tercera imagen">
+              <img src="./assets/img/vintage.jpeg" class="d-block w-100" alt="Tercera imagen">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Jersey Vuelta de España</h5>
+                <p>Comodidad y elegancia en un mismo artículo.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/varix.jpeg" class="d-block w-100" alt="Tercera imagen">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Jersey Vuelta de España</h5>
                 <p>Comodidad y elegancia en un mismo artículo.</p>
