@@ -3,18 +3,11 @@
 <?php require ('./layouts/header.php') ?>
 
   <!-- Page Content-->
-        <div class="container px-4 px-lg-5">
+
+            
             <!-- Heading Row-->
-            <div class="row gx-4 gx-lg-5 align-items-center my-5">
-                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="./assets/img/portada-transformed.jpeg" alt="..." /></div>
-                <div class="col-lg-5">
-                    <h1 class="display-4" style="text-align: center;">laliga</h1>
-                    <h5 class="font-weight-light" style="text-align: center;">UNIDAD Y FLEXIBILIDAD</h5>
-                    <p>Tu sitio de encuentro con los mejores eventos ciclistas!</p>
-                    <p>Sé parte de nosotros y no te pierdas ninguna noticia de las carreras que organizamos.</p>
-                    <a class="btn btn-primary mx-auto d-block" href="registro.php">REGÍSTRATE!</a>
-                </div>
-            </div>
+            
+          
             <!-- Call to Action-->
             <div class="card text-white bg-secondary my-5 py-4 text-center">
                 <div class="card-body"><p class="text-white m-0">PRÓXIMAS CARRERAS!</p></div>
@@ -69,7 +62,7 @@
 <div class="container">
   <div class="card">
     <div class="card-header">
-      <h4>Productos relacionados</h4>
+      <h4>Outfit !</h4>
     </div>
       <div class= "card-body">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -82,8 +75,8 @@
             <div class="carousel-item active">
               <img src="./assets/img/mexico.jpeg" class="d-block w-100" alt="Primera imagen">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Unidad y Flexibilidad !</h5>
-                <p>Los mejores eventos ciclistas están aquí.</p>
+                <h5>Celebremos fiestas patrias con este precioso Jersey !</h5>
+                <p>Fabricado con telas que te mantienen fresco y seco.</p>
               </div>
             </div>
             <div class="carousel-item">
@@ -96,15 +89,8 @@
             <div class="carousel-item">
               <img src="./assets/img/vintage.jpeg" class="d-block w-100" alt="Tercera imagen">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Jersey Vuelta de España</h5>
-                <p>Comodidad y elegancia en un mismo artículo.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/img/varix.jpeg" class="d-block w-100" alt="Tercera imagen">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Jersey Vuelta de España</h5>
-                <p>Comodidad y elegancia en un mismo artículo.</p>
+                <h5>Sumérgete en la época dorada del ciclismo !</h5>
+                <p>Rinde homenaje a los ciclistas legendarios que dejaron una huella imborrable en este deporte.</p>
               </div>
             </div>
           </div>

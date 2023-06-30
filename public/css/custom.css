@@ -1,0 +1,17 @@
+.fondo {
+    background-image: url(./assets/img/portada-transformed.jpeg);  
+    height: 30vh; 
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        min-height: 30vh;
+    }
+    h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+}
