@@ -5,11 +5,7 @@
  
             
             <!-- Background image -->
-<div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
-  style="
-    background-image: url('https://liga.nettual.com/assets/img/portada-transformed.jpeg');">
-
-  
+<div class="container-fluid fondo p-5 text-center shadow-1-strong rounded mb-3 text-dark">
 
       <h1 class="mb-3 h2 display-1">laliga</h1>
 
@@ -76,10 +72,10 @@
         
 <!--Aqui inicia el carrusel -->
 
-<div class="container">
+<div class="container-fluid">
   <div class="card">
     <div class="card-header">
-      <h4>Outfit !</h4>
+      <h4 class="text-center display-5">Corre con estilo !</h4>
     </div>
       <div class= "card-body">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
