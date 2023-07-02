@@ -2,10 +2,27 @@
 
 <?php require ('./layouts/header.php') ?>
 
-  <!-- Page Content-->
-
+ 
             
-            <!-- Heading Row-->
+            <!-- Background image -->
+<div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
+  style="
+    background-image: url('https://liga.nettual.com/assets/img/portada-transformed.jpeg');">
+
+  
+
+      <h1 class="mb-3 h2 display-1">laliga</h1>
+
+        <p>
+        UNIDAD Y FLEXIBILIDAD
+        </p>
+
+        <a href="https://liga.nettual.com/registro.php" class="btn btn-outline-light">ÚNETE</a>
+    
+  
+
+</div>
+<!-- Background image -->
             
           
             <!-- Call to Action-->
