@@ -1,8 +1,7 @@
 <?php session_start();
     if(!isset($_SESSION['usuario'])){
-        header("location:index.php");
+        header("location:perfil.php");
     }
-
 ?>
 <?php require ('./layouts/header.php') ?>
 
