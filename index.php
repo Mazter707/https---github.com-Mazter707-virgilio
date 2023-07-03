@@ -5,7 +5,7 @@
  
             
             <!-- Background image -->
-<div class="container-fluid fondo p-5 text-center shadow-1-strong rounded mb-3 text-dark">
+<div class="container-fluid fondo p-5 text-center shadow-1-strong rounded mb-3 text-white ">
 
       <h1 class="mb-3 h2 display-1">laliga</h1>
 
@@ -33,7 +33,7 @@
                         <img src="./assets/img/huracan.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h3 class="card-title" style="text-align: center;">HURACÁN</h3>
-                          <p class="card-text">Sábado 1 de Julio  |  Campeche</p>
+                          <p class="card-text text-center">Sábado 1 de Julio  |  Campeche</p>
                           <h5 class="card-title" style="text-align: center;">$ 300.00</h5>
                           <a href="#" class="btn btn-primary mx-auto d-block" >Inscríbete</a>
                         </div>
@@ -46,7 +46,7 @@
                         <img src="./assets/img/jonuta.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h3 class="card-title" style="text-align: center;">JONUTA</h3>
-                          <p class="card-text">Domingo 20 de Agosto  |  Jonuta</p>
+                          <p class="card-text text-center">Domingo 20 de Agosto  |  Jonuta</p>
                           <h5 class="card-title" style="text-align: center;">$ 300.00</h5>
                           <a href="#" class="btn btn-primary mx-auto d-block" >Inscríbete</a>
                         </div>
@@ -59,7 +59,7 @@
                         <img src="./assets/img/pixan.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h3 class="card-title" style="text-align: center;">PIXAN HELL</h3>
-                          <p class="card-text">Domingo 29 de Octubre  |  Mérida</p>
+                          <p class="card-text text-center">Domingo 29 de Octubre  |  Mérida</p>
                           <h5 class="card-title" style="text-align: center;">$ 300.00</h5>
                           <a href="#" class="btn btn-primary mx-auto d-block" >Inscríbete</a>
                         </div>

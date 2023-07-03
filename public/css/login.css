@@ -4,8 +4,9 @@
   
   .bg-image {
     background-image: url('../../assets/img/ciclista-login-300x1200.jpg');
-    background-size: cover;
+    background-size: 100% auto;
     background-position: center;
+
   }
   
   .login-heading {

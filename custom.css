@@ -1,7 +1,8 @@
 .fondo {
-    background-image: url(./assets/img/portada-transformed.jpeg);  
+    background-image: linear-gradient(rgba(105, 75, 19, 0.65), rgba(105, 75, 19, 0.65)), url(./assets/img/portada-transformed.jpeg);  
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 50vh;
 }
 
