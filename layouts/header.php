@@ -8,7 +8,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="public/css/mi-carousel.css">
-    <link href="public/css/custom.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+    <link rel="icon" href="https://liga.nettual.com/assets/img/logo-laliga.ico">
     <title>laliga | Unidad y Flexibilidad</title>
   </head>
 <body>
@@ -26,12 +27,12 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
         </li>
-        <li class="nav-item">
+        <!--<li class="nav-item">
           <a class="nav-link" href="eventos.php">Eventos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="tienda.php">Tienda</a>
-        </li>
+        </li>-->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Mi cuenta
