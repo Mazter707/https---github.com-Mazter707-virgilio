@@ -23,13 +23,13 @@
               <h3 class="login-heading mb-4">Ingresa</h3>
 
               <!-- Sign In Form -->
-              <form action="servidor/login/logear.php"  method="post">
+              <form action="servidor/login/logear.php"  method="post" autocomplete="off">
                 <div class="form-floating mb-3">
-                  <input type="text" class="form-control" name="usuario" id="usuario" placeholder="Usuario">
+                  <input type="text" class="form-control" name="usuario" id="usuario" placeholder="Usuario" autocomplete="off">
                   <label for="usuario">Usuario</label>
                 </div>
                 <div class="form-floating mb-3">
-                  <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                  <input type="password" class="form-control" name="password" id="password" placeholder="Password" autocomplete="off">
                   <label for="password">Password</label>
                 </div>
 

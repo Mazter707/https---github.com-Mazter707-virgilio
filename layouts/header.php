@@ -16,7 +16,7 @@
  <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="https://liga.nettual.com/index.php">
       <img src='https://liga.nettual.com/assets/img/logo-laliga-150x50.svg' alt="..." height="42">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

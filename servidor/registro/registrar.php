@@ -10,14 +10,12 @@
     $nacimiento = $_POST['nacimiento'];
     $equipo = $_POST['equipo'];
 
-   
-
     $Auth = new Auth();
 
     if ($Auth->registrar($usuario, $password, $nombre_completo, $email, $celular, $genero, $nacimiento, $equipo)){
         header("location:../../index.php");
     } else {
-        echo "No se pudo registrar";
+        echo "No se pudo llevar a cabo el registro";
     }
 
 ?>
