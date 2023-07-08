@@ -20,19 +20,33 @@
             <!-- Background image for card set in CSS! -->
           </div>
           <div class="card-body p-4 p-sm-5">
-            <h5 class="card-title text-center mb-5 fw-light fs-5">Registro</h5>
-            <form action="servidor/registro/registrar.php"  method="post">
+            <h5 class="card-title text-center mb-5 fw-light fs-1 " >Registro</h5>
+            <form class="needs-validation" novalidate action="servidor/registro/registrar.php"  method="post" autocomplete="off">
 
-              <div class="form-floating mb-3">
+              <div class="form-floating mb-3 ">
                 <input type="text" class="form-control" id="usuario" name="usuario"
                 placeholder="Usuario"  autocomplete="off" required autofocus>
                 <label for="usuario">Usuario</label>
+
+                <div class="valid-feedback">
+                  Ok
+                </div>
+                <div class="invalid-feedback">
+                  Favor de ingresar un nombre de Usuario.
+                </div>
               </div>
 
               <div class="form-floating mb-3">
                 <input type="password" class="form-control" id="password" name="password"
-                 placeholder="Password" required>
-                <label for="password">Password</label>
+                 placeholder="Password" autocomplete="off" required>
+                <label for="password">Contraseña</label>
+
+                <div class="valid-feedback">
+                  Ok
+                </div>
+                <div class="invalid-feedback">
+                  Es necessario que ingrese una Contraseña.
+                </div>
               </div>
 
               <div class="form-floating mb-3">
@@ -49,8 +63,8 @@
               </div>
 
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="email" name="email"
-                 placeholder="Email" required>
+                <input type="email" class="form-control" id="email" name="email"
+                 placeholder="Email" autocomplete="off" required>
                 <label for="email">Email</label>
 
                 <div class="valid-feedback">
@@ -62,28 +76,99 @@
               </div>
 
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="celular" name="celular"
-                 placeholder="999 000 00 00" required>
+                <input type="tel"  class="form-control" id="celular" name="celular"
+                 placeholder="999 000 00 00" autocomplete="off" required>
                 <label for="celular">Celular</label>
 
                 <div class="valid-feedback">
                   Ok
                 </div>
                 <div class="invalid-feedback">
-                  El numero de telefono ingresado es inválido.
+                  Debe ingreasr su número de celular.
                 </div>
               </div>
 
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="genero" name="genero"
-                 placeholder="Masculino / Femenino" required>
-                <label for="genero">Genero</label>
+                <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupSelect01">Género</label>
+                  <select class="form-select" id="genero" name="genero" required>
+                    <option selected disabled value="">Selecciona...</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                  </select>
+                  <div class="valid-feedback">
+                      Ok
+                  </div>
+                  <div class="invalid-feedback">
+                        Favor de ingresar el género.
+                  </div>
+
+                 
+                  </div>
+
+            
               </div>
 
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="nacimiento" name="nacimiento"
-                 placeholder="Año de nacimiento" required>
-                <label for="nacimiento">Año de nacimiento</label>
+                <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupSelect02">Año de nacimiento</label>
+                  <select class="form-select" id="nacimiento" name="nacimiento" required>
+                    <option selected disabled value="">Selecciona...</option>
+                    <option value="1973">1973</option>
+                    <option value="1974">1974</option>
+                    <option value="1975">1975</option>
+                    <option value="1976">1976</option>
+                    <option value="1977">1977</option>
+                    <option value="1978">1978</option>
+                    <option value="1979">1979</option>
+                    <option value="1980">1980</option>
+                    <option value="1981">1981</option>
+                    <option value="1982">1982</option>
+                    <option value="1983">1983</option>
+                    <option value="1984">1984</option>
+                    <option value="1985">1985</option>
+                    <option value="1986">1986</option>
+                    <option value="1987">1987</option>
+                    <option value="1988">1988</option>
+                    <option value="1989">1989</option>
+                    <option value="1990">1990</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                  </select>
+
+                  <div class="valid-feedback">
+                    Ok
+                    </div>
+                    <div class="invalid-feedback">
+                      Favor de ingresar su año de nacimiento.
+                    </div>
+                  </div>
               </div>
 
                 
@@ -163,8 +248,24 @@
   // Fetch all the forms we want to apply custom Bootstrap validation styles to
   var forms = document.querySelectorAll('.needs-validation')
 
-  //Funcion para validar el telefono
-  function validarTelefono(parametro){
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+    </script>
+
+<script>
+       (//Funcion para validar el telefono
+      function validarTelefono(parametro){
         var patron = /^\d{10}$/;
 
         if(!patron.test(parametro)){
@@ -173,35 +274,18 @@
           return true;
         }
       }
-
-  // Loop over them and prevent submission
-  Array.prototype.slice.call(forms)
-    .forEach(function (form) {
-      form.addEventListener('submit', function (event) {
-        if (!form.checkValidity()) {
+      
+      function (format) {
+      format.addEventListener('submit', function (event) {
+        if (!format.validarTelefono()) {
           event.preventDefault()
           event.stopPropagation()
         }else if
 
-        form.classList.add('was-validated')
+        format.classList.add('was-validated')
       }, false)
-    })
 })()
-    </script>
+  </script>
 
-    <script>
-      (
-
-      var formulario = document.addForm;
-
-      if (validarTelefono(formulario.celular.value) == false{
-
-        formulario.celular.value="";
-        formulario.celular.focus();
-
-      } else{}
-
-      ))
-    </script>
   </body>
 </html>
