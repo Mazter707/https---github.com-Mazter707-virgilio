@@ -21,6 +21,7 @@
           </div>
           <div class="card-body p-4 p-sm-5">
             <h5 class="card-title text-center mb-5 fw-light fs-1 " >Registro</h5>
+            
             <form class="needs-validation" novalidate action="servidor/registro/registrar.php"  method="post" autocomplete="off">
 
               <div class="form-floating mb-3 ">
@@ -28,48 +29,88 @@
                 placeholder="Usuario"  autocomplete="off" required autofocus>
                 <label for="usuario">Usuario</label>
 
+                <div class="valid-feedback">
+                  Ok
+                </div>
+                <div class="invalid-feedback">
+                  Favor de ingresar un nombre de Usuario.
+                </div>
               </div>
 
               <div class="form-floating mb-3">
                 <input type="password" class="form-control" id="password" name="password"
                  placeholder="Password" autocomplete="off" required>
                 <label for="password">Contraseña</label>
+
+                <div class="valid-feedback">
+                  Ok
+                </div>
+                <div class="invalid-feedback">
+                  Es necessario que ingrese una Contraseña.
+                </div>
               </div>
 
               <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="nombre_completo" name="nombre_completo"
                  placeholder="Nombre completo" autocomplete="off" required>
                 <label for="nombre_completo">Nombre completo</label>
+
+                <div class="valid-feedback">
+                  Ok
+                </div>
+                <div class="invalid-feedback">
+                  Debe ingresar su Nombre completo.
+                </div>
               </div>
 
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="email" name="email"
+                <input type="email" class="form-control" id="email" name="email"
                  placeholder="Email" autocomplete="off" required>
                 <label for="email">Email</label>
+
+                <div class="valid-feedback">
+                  Ok
+                </div>
+                <div class="invalid-feedback">
+                  Debe ingresar un email válido.
+                </div>
               </div>
 
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="celular" name="celular"
+                <input type="tel"  class="form-control" id="celular" name="celular"
                  placeholder="999 000 00 00" autocomplete="off" required>
                 <label for="celular">Celular</label>
-              </div>
 
-              <div class="form-floating mb-3">
-                <div class="input-group mb-3">
-                  <label class="input-group-text" for="inputGroupSelect01">Género</label>
-                  <select class="form-select" id="genero" name="genero">
-                    <option selected>Selecciona...</option>
-                    <option value="Masculino">Masculino</option>
-                    <option value="Femenino">Femenino</option>
-                  </select>
+                <div class="valid-feedback">
+                  Ok
+                </div>
+                <div class="invalid-feedback">
+                  El numero de telefono ingresado es inválido.
                 </div>
               </div>
 
               <div class="form-floating mb-3">
                 <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupSelect01">Género</label>
+                  <select class="form-select" id="genero" name="genero" required>
+                    <option selected disabled value="">Selecciona...</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                  </select>
+                  <div class="valid-feedback">
+                      Ok
+                  </div>
+                  <div class="invalid-feedback">
+                        Favor de ingresar el género.
+                  </div>                
+                </div>           
+              </div>
+
+              <div class="form-floating mb-3">
+                <div class="input-group mb-3">
                   <label class="input-group-text" for="inputGroupSelect02">Año de nacimiento</label>
-                  <select class="form-select" id="nacimiento" name="nacimiento">
-                    <option selected>Selecciona...</option>
+                  <select class="form-select" id="nacimiento" name="nacimiento" required>
+                    <option selected disabled value="">Selecciona...</option>
                     <option value="1973">1973</option>
                     <option value="1974">1974</option>
                     <option value="1975">1975</option>
@@ -117,8 +158,17 @@
                     <option value="2017">2017</option>
                     <option value="2018">2018</option>
                   </select>
-                </div>
+
+                  <div class="valid-feedback">
+                    Ok
+                    </div>
+                    <div class="invalid-feedback">
+                      Favor de ingresar su año de nacimiento.
+                    </div>
+                  </div>
               </div>
+
+                
 
               <div class="form-floating mb-3">
                 <div class="input-group mb-3">
@@ -187,5 +237,53 @@
   </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  //Funcion para validar el telefono
+  function validarTelefono(parametro){
+        var patron = /^\d{10}$/;
+
+        if(!patron.test(parametro)){
+          return false;
+        }else{
+          return true;
+        }
+      }
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }else if
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+    </script>
+
+    <script>
+      (
+
+      var formulario = document.addForm;
+
+      if (validarTelefono(formulario.celular.value) == false{
+
+        formulario.celular.value="";
+        formulario.celular.focus();
+
+      } else{}
+
+      ))
+    </script>
   </body>
 </html>
