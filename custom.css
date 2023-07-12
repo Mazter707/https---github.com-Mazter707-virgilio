@@ -1,8 +1,9 @@
 .fondo {
     background-image: url(./assets/img/portada-transformed.jpeg);  
-    background-size: 100% auto;
-    background-position: center;
+    height: 100vh;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
 }
 
 .btn-transformed{

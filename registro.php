@@ -21,7 +21,7 @@
           </div>
           <div class="card-body p-4 p-sm-5">
             <h5 class="card-title text-center mb-5 fw-light fs-1 " >Registro</h5>
-            <form class="needs-validation" novalidate action="servidor/registro/registrar.php"  method="post" autocomplete="off">
+            <form name= "addForm" class="needs-validation"  novalidate  action="servidor/registro/registrar.php"  method="post" autocomplete="off">
 
               <div class="form-floating mb-3 ">
                 <input type="text" class="form-control" id="usuario" name="usuario"
@@ -76,8 +76,8 @@
               </div>
 
               <div class="form-floating mb-3">
-                <input type="tel"  class="form-control" id="celular" name="celular"
-                 placeholder="999 000 00 00" autocomplete="off" required>
+                <input type="text"  class="form-control" id="celular" name="celular"
+                 placeholder="999 000 00 00" autocomplete="off" >
                 <label for="celular">Celular</label>
 
                 <div class="valid-feedback">
@@ -225,7 +225,7 @@
              
 
               <div class="d-grid mb-2">
-                <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase" type="submit">Registrar</button>
+                <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase"  type="submit" onclick="validarFormulario();" >Registrar</button>
               </div>
 
               <a class="d-block text-center mt-2 small" href="login.php">Ya tienes una cuenta? Ingresa!</a>
@@ -239,6 +239,33 @@
     </div>
   </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+       (//Funcion para validar el telefono
+      function validarTelefono(parametro){
+        var patron = /^\d{10}$/;
+
+        if(!patron.test(parametro)){
+          return false;
+        }else{
+          return true;
+        }
+      }
+       
+
+      function validarFormulario() {
+        //alert("Todo en orden");
+        var formulario = document.addForm;
+
+        if(validarTelefono(formulario.celular.value) == false){
+
+          alert("Favor de ingreasr un número de teléfono válido, ejemplo 9998887766");
+          formulario.celular.value = "";
+          formulario.celular.focus();
+        }
+      })
+
+    </script>
 
     <script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
@@ -262,30 +289,5 @@
     })
 })()
     </script>
-
-<script>
-       (//Funcion para validar el telefono
-      function validarTelefono(parametro){
-        var patron = /^\d{10}$/;
-
-        if(!patron.test(parametro)){
-          return false;
-        }else{
-          return true;
-        }
-      }
-      
-      function (format) {
-      format.addEventListener('submit', function (event) {
-        if (!format.validarTelefono()) {
-          event.preventDefault()
-          event.stopPropagation()
-        }else if
-
-        format.classList.add('was-validated')
-      }, false)
-})()
-  </script>
-
   </body>
 </html>
