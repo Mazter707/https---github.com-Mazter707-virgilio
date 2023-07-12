@@ -18,7 +18,7 @@
           <div class="carousel-caption text-center">
             <h1>laliga</h1>
             <p>UNIDAD Y FLEXIBILIDAD</p>
-            <p><a class="btn btn-lg btn-primary" href="#">REGISTRATE</a></p>
+            <p><a class="btn btn-lg btn-primary" href="http://liga.nettual.com/registro.php">REGISTRATE</a></p>
           </div>
         </div>
       </div>
@@ -27,9 +27,9 @@
 
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            <h1>Aqui podemos agregar un banner publicitario.</h1>
+            <p>De alguno de nuestros patrocinadores principales</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Mas</a></p>
           </div>
         </div>
       </div>
@@ -38,9 +38,9 @@
 
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            <h1>Y aqui uno mas.</h1>
+            <p>Para tener al menos 2 patrocinadores principales.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Vamos !</a></p>
           </div>
         </div>
       </div>
