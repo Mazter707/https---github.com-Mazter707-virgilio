@@ -5,19 +5,15 @@
 <div class="container-fluid">
             
             <!-- Background image -->
-<div class=" fondo p-5 text-center shadow-1-strong rounded mb-3 text-white">
+<div class="container-fluid fondo p-5 text-center shadow-1-strong rounded mb-3 text-white">
 
-    <div class="d-flex justify-content-center align-items-center";>
-      <h1 class="mb-3 h2 display-1">laliga</h1>
-    </div>
-    <div class="d-flex justify-content-center align-items-center";>
+    <h1 class="mb-3 h2 display-1">laliga</h1>
+
       <p>
-        UNIDAD Y FLEXIBILIDAD
+      UNIDAD Y FLEXIBILIDAD
       </p>
-    </div>
-    <div class="d-flex justify-content-center align-items-center";>
-      <a href="https://liga.nettual.com/registro.php" class="btn btn-outline-light">ÚNETE</a>
-    </div>
+
+    <a href="https://liga.nettual.com/registro.php" class="btn btn-outline-light">ÚNETE</a>
 
 </div>
 <!-- Background image -->
