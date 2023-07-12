@@ -83,19 +83,19 @@
                       <form id="formAccountSettings" method="POST" onsubmit="return false">
                         <div class="row">
                           <div class="mb-3 col-md-6">
-                            <label for="firstName" class="form-label">First Name</label>
+                            <label for="firstName" class="form-label">Nombre completo</label>
                             <input
                               class="form-control"
                               type="text"
                               id="firstName"
                               name="firstName"
-                              value="Jesus"
+                              value="Jesus Garcia Martinez"
                               autofocus
                             />
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label for="lastName" class="form-label">Last Name</label>
-                            <input class="form-control" type="text" name="lastName" id="lastName" value="Garcia" />
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input class="form-control" type="password" name="password" id="lastName" value="" />
                           </div>
                           <div class="mb-3 col-md-6">
                             <label for="email" class="form-label">E-mail</label>
@@ -109,17 +109,7 @@
                             />
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label for="organization" class="form-label">Organization</label>
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="organization"
-                              name="organization"
-                              value="Nettual"
-                            />
-                          </div>
-                          <div class="mb-3 col-md-6">
-                            <label class="form-label" for="phoneNumber">Phone Number</label>
+                            <label class="form-label" for="phoneNumber">Celular</label>
                             <div class="input-group input-group-merge">
                               <span class="input-group-text">MX (+52)</span>
                               <input
@@ -131,29 +121,11 @@
                               />
                             </div>
                           </div>
+                          
                           <div class="mb-3 col-md-6">
-                            <label for="address" class="form-label">Address</label>
-                            <input type="text" class="form-control" id="address" name="address" placeholder="Dirección" />
-                          </div>
-                          <div class="mb-3 col-md-6">
-                            <label for="state" class="form-label">State</label>
-                            <input class="form-control" type="text" id="state" name="state" placeholder="Chihuahua" />
-                          </div>
-                          <div class="mb-3 col-md-6">
-                            <label for="zipCode" class="form-label">Zip Code</label>
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="zipCode"
-                              name="zipCode"
-                              placeholder="33739"
-                              maxlength="6"
-                            />
-                          </div>
-                          <div class="mb-3 col-md-6">
-                            <label class="form-label" for="country">Country</label>
+                            <label class="form-label" for="country">Género</label>
                             <select id="country" class="select2 form-select">
-                              <option value="">Select</option>
+                              <option value="">Selecciona</option>
                               <option value="Australia">Australia</option>
                               <option value="Bangladesh">Bangladesh</option>
                               <option value="Belarus">Belarus</option>
@@ -181,9 +153,9 @@
                             </select>
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label for="language" class="form-label">Language</label>
+                            <label for="language" class="form-label">Año de nacimiento</label>
                             <select id="language" class="select2 form-select">
-                              <option value="">Select Language</option>
+                              <option value="">Selecciona</option>
                               <option value="en">English</option>
                               <option value="fr">French</option>
                               <option value="de">German</option>
@@ -191,9 +163,9 @@
                             </select>
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label for="timeZones" class="form-label">Timezone</label>
+                            <label for="timeZones" class="form-label">Equipo</label>
                             <select id="timeZones" class="select2 form-select">
-                              <option value="">Select Timezone</option>
+                              <option value="">Selecciona</option>
                               <option value="-12">(GMT-12:00) International Date Line West</option>
                               <option value="-11">(GMT-11:00) Midway Island, Samoa</option>
                               <option value="-10">(GMT-10:00) Hawaii</option>
@@ -212,16 +184,6 @@
                               <option value="-5">(GMT-05:00) Indiana (East)</option>
                               <option value="-4">(GMT-04:00) Atlantic Time (Canada)</option>
                               <option value="-4">(GMT-04:00) Caracas, La Paz</option>
-                            </select>
-                          </div>
-                          <div class="mb-3 col-md-6">
-                            <label for="currency" class="form-label">Currency</label>
-                            <select id="currency" class="select2 form-select">
-                              <option value="">Select Currency</option>
-                              <option value="usd">USD</option>
-                              <option value="euro">Euro</option>
-                              <option value="pound">Pound</option>
-                              <option value="bitcoin">Bitcoin</option>
                             </select>
                           </div>
                         </div>
