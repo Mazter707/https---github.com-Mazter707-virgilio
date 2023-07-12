@@ -21,7 +21,11 @@
           </div>
           <div class="card-body p-4 p-sm-5">
             <h5 class="card-title text-center mb-5 fw-light fs-1 " >Registro</h5>
+<<<<<<< HEAD
             <form name= "addForm" class="needs-validation"  novalidate  action="servidor/registro/registrar.php"  method="post" autocomplete="off">
+=======
+            <form class="needs-validation" novalidate action="servidor/registro/registrar.php" name ="addForm" method="post" autocomplete="off">
+>>>>>>> e223f380b473d6173174031a8fde61c49936ad52
 
               <div class="form-floating mb-3 ">
                 <input type="text" class="form-control" id="usuario" name="usuario"
@@ -77,7 +81,11 @@
 
               <div class="form-floating mb-3">
                 <input type="text"  class="form-control" id="celular" name="celular"
+<<<<<<< HEAD
                  placeholder="999 000 00 00" autocomplete="off" >
+=======
+                 placeholder="999 000 00 00" autocomplete="off" required>
+>>>>>>> e223f380b473d6173174031a8fde61c49936ad52
                 <label for="celular">Celular</label>
 
                 <div class="valid-feedback">
@@ -225,7 +233,11 @@
              
 
               <div class="d-grid mb-2">
+<<<<<<< HEAD
                 <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase"  type="submit" onclick="validarFormulario();" >Registrar</button>
+=======
+                <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase" onclick="validarFormulario();" type="submit">Registrar</button>
+>>>>>>> e223f380b473d6173174031a8fde61c49936ad52
               </div>
 
               <a class="d-block text-center mt-2 small" href="login.php">Ya tienes una cuenta? Ingresa!</a>
@@ -239,6 +251,9 @@
     </div>
   </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
 
     <script>
        (//Funcion para validar el telefono
@@ -289,5 +304,36 @@
     })
 })()
     </script>
+<<<<<<< HEAD
+=======
+
+
+<script>
+
+       //Funcion para validar el numero de telefono
+       function validarTelefono(parametro){
+        var patron = /^\d{10}$/;
+
+        if(!patron.test(parametro)){
+          return false;
+        }else{
+          return true;
+        }
+      }
+
+      //Funcion para validar Formulario.
+      function validarFormulario(){
+        
+        var formulario = document.addForm;
+        if(validarTelefono(formulario.celular.value) == false){
+          alert("Favor de ingresar un número de telefono válido");
+          formulario.celular.value = "";
+          formulario.celular.focus();
+        }     
+      }
+</script>
+
+
+>>>>>>> e223f380b473d6173174031a8fde61c49936ad52
   </body>
 </html>
