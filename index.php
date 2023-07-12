@@ -2,22 +2,6 @@
 
 <?php require ('./layouts/header.php') ?>
 
-<style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style> 
-
 <div class="container-fluid">
             
 <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -31,7 +15,7 @@
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
         <img src="./assets/img/portada-transformed.jpeg" class="d-block w-100" alt="Primera imagen">
         <div class="container">
-          <div class="carousel-caption text-start">
+          <div class="carousel-caption text-center">
             <h1>laliga</h1>
             <p>UNIDAD Y FLEXIBILIDAD</p>
             <p><a class="btn btn-lg btn-primary" href="#">REGISTRATE</a></p>

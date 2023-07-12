@@ -10,12 +10,27 @@
     <link rel="stylesheet" href="public/css/mi-carousel.css">
     <link href="custom.css" rel="stylesheet">
     <link href="carousel.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style> 
     <link rel="icon" href="https://liga.nettual.com/assets/img/logo-laliga.ico">
     <title>laliga | Unidad y Flexibilidad</title>
   </head>
-<body>
+<body >
  <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container">
     <a class="navbar-brand" href="https://liga.nettual.com/index.php">
       <img src='https://liga.nettual.com/assets/img/logo-laliga-150x50.svg' alt="..." height="42">
