@@ -4,16 +4,8 @@
 
 <div class="container-fluid">
             
-<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-        <img src="./assets/img/portada-transformed.jpeg" class="d-block w-100" alt="Primera imagen">
+      <div class="row">
+        <img src="./assets/img/portada-transformed.jpeg" class="d-block w-100 "  alt="Primera imagen">
         <div class="container">
           <div class="carousel-caption text-center">
             <h1>laliga</h1>
@@ -22,38 +14,6 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Aqui podemos agregar un banner publicitario.</h1>
-            <p>De alguno de nuestros patrocinadores principales</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Mas</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>Y aqui uno mas.</h1>
-            <p>Para tener al menos 2 patrocinadores principales.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Vamos !</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
             
           
             <!-- Call to Action-->
@@ -134,56 +94,58 @@
         
     <!--Aqui inicia el carrusel -->
 
-  <div class="container-fluid">
-  <div class="card">
-    <div class="card-header">
-    <h4 class="text-center display-5">Corre con estilo !</h4>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-      <div class= "card-body">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="./assets/img/mexico.jpeg" class="d-block w-100" alt="Primera imagen">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Jersey conmemorativo Fiestas Patrias!</h1>
+            <p>Fabricado con telas que te mantienen fresco y seco.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.yapur.mx/collections/2023/products/mexico-2023" target="_blank" >Adquierela !</a></p>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-            <a href="https://www.yapur.mx/collections/2023/products/mexico-2023" target="_blank" class="btn btn-transformed stretched-link">COMPRAR</a>
-              <img src="./assets/img/mexico.jpeg" class="d-block w-100" alt="Primera imagen">
-              <div class="carousel-caption d-none d-md-block">              
-                <h5>Celebremos fiestas patrias con este precioso Jersey !</h5>
-                <p>Fabricado con telas que te mantienen fresco y seco.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-            <a href="https://www.yapur.mx/collections/grandes-vueltas/products/tour-2023" target="_blank" class="btn btn-transformed stretched-link">COMPRAR</a>
-              <img src="./assets/img/tour-france-large.jpg" class="d-block w-100" alt="Segunda imagen">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Jersey Tour de Francia</h5>
-                <p>Excelenta ventilación que te mantiene fresco..</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-            <a href="https://www.yapur.mx/collections/historicos" target="_blank" class="btn btn-transformed stretched-link">COMPRAR</a>
-              <img src="./assets/img/vintage.jpeg" class="d-block w-100" alt="Tercera imagen">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Sumérgete en la época dorada del ciclismo !</h5>
-                <p>Rinde homenaje a los ciclistas legendarios que dejaron una huella imborrable en este deporte.</p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="./assets/img/tour-france-large.jpg" class="d-block w-100" alt="Segunda imagen">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Jersey Tour de Francia</h1>
+            <p>Excelente ventilación que te mantiene fresco...</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.yapur.mx/collections/grandes-vueltas/products/tour-2023" target="_blank">Cómprala !</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="./assets/img/vintage.jpeg" class="d-block w-100" alt="Tercera imagen">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Sumérgete en la época dorada del ciclismo !</h1>
+            <p>Rinde homenaje a los ciclistas legendarios que dejaron una huella imborrable en este deporte.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.yapur.mx/collections/historicos" target="_blank">Hazla tuya !</a></p>
+          </div>
+        </div>
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-</div>
+
 <!--Aqui termina el carrusel -->
 
 
