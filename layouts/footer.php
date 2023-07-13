@@ -1,24 +1,125 @@
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <!-- Footer -->
 
-</div>
-  </body>
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Conéctate con nuestras redes sociales:</span>
+    </div>
+    <!-- Left -->
 
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
 
-  <footer class="bg-light text-center text-black">
-  <!-- Grid container -->
-  <div class="container p-4 pb-0">
-    
-    <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>laliga
+          </h6>
+          <p>
+            Te dotamos de herramientas para que la organización de tus carreras se conviertan en el evento más esperado por los ciclistas !
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Servicios
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Foto Finish App</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Inscripciones</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Resultados </a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Promoción</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Conoce más
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Precios</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Configuración</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Órdenes</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Ayuda</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+          <p><i class="fas fa-home me-3"></i> Mérida, Yucatán 90912, MX</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@laliga.run
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 52 999 001 02 03</p>
+          <p><i class="fas fa-print me-3"></i> + 52 999 001 02 04</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: #f8f9fa;">
-    
-    Diseñado por <strong>IDS. Jesús García</strong>  |  Desarrollado por <strong>Nettual</strong>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">laliga.run</a>
   </div>
   <!-- Copyright -->
 </footer>
-  
+
+<!-- Footer -->
+
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
 </html>
