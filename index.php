@@ -4,16 +4,18 @@
 
 <div class="container-fluid">
             
-      <div class="row">
-        <img src="./assets/img/portada-transformed.jpeg" class="d-block w-100 "  alt="Primera imagen">
-        <div class="container">
-          <div class="carousel-caption text-center">
-            <h1>laliga</h1>
-            <p>UNIDAD Y FLEXIBILIDAD</p>
-            <p><a class="btn btn-lg btn-primary" href="http://liga.nettual.com/registro.php">REGISTRATE</a></p>
-          </div>
-        </div>
-      </div>
+      <header class="row">
+        <div class="col-12">
+          <figure class="figure";>
+          <img class="img-fluid" src="./assets/img/portada-transformed.jpeg" width="1900"  float-center alt="Primera imagen">
+            <figcaption class="figure-caption text-center">
+              <h1>laliga</h1>
+              <p>UNIDAD Y FLEXIBILIDAD</p>
+              <p><a class="btn btn-lg btn-primary" href="http://liga.nettual.com/registro.php">REGISTRATE</a></p>
+            </figcaption> 
+          </figure>
+        </div>    
+      </header>
             
           
             <!-- Call to Action-->
