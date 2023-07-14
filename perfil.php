@@ -353,7 +353,7 @@
                           </div>
                         </div>
                         <div class="mt-2">
-                          <button type="submit" class="btn btn-primary me-2">Guardar cambios</button>
+                          <button type="submit" class="btn btn-primary me-2">Guardar</button>
                           <button type="reset" class="btn btn-outline-secondary">Cancelar</button>
                         </div>
                       </form>
