@@ -1,16 +1,16 @@
 
 <?php require ('./layouts/header.php') ?>
 
-<div class="container-fluid">
+<div class="container-fluid ml-0 pl-0" >
 
 <style>
   .content-wrapper{
-    margin-left:30px;
-    padding:30px;
+    margin-left:1px;
+    padding:1px;
   }
 </style>
 
-<div class="d-flex mt-2" id="wrapper">
+<div class="d-flex mt-2 ml-0 pl-0" id="wrapper">
            
   <!-- Sidebar -->
   <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
@@ -184,10 +184,7 @@
                               accept="image/png, image/jpeg"
                             />
                           </label>
-                          <button type="button" class="btn btn-outline-secondary account-image-reset mb-4">
-                            <i class="bx bx-reset d-block d-sm-none"></i>
-                            <span class="d-none d-sm-block">Resetear</span>
-                          </button>
+                          
 
                           <p class="text-muted mb-0">Formatos de imagen permitidos: JPG, GIF or PNG. Tamaño máximo de 800K</p>
                         </div>
