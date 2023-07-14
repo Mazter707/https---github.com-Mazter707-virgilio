@@ -19,6 +19,8 @@
     />
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- SB ADMIN 2 -->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
   </head>
   <body>
     <!-- Start your project here-->
@@ -40,7 +42,7 @@
     </button>
 
     <!-- Collapsible wrapper -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse py-1" id="navbarSupportedContent">
       <!-- Navbar brand -->
       <a class="navbar-brand mt-2 mt-lg-0" href="https://liga.nettual.com/index.php">
         <img
