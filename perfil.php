@@ -1,19 +1,19 @@
 
 <?php require ('./layouts/header.php') ?>
 
-<div class="container-fluid ml-0 pl-0" >
+<div class="container-fluid">
 
 <style>
   .content-wrapper{
-    margin-left:1px;
-    padding:1px;
+    margin-left:2px;
+    padding:2px;
   }
 </style>
 
 <div class="d-flex mt-2 ml-0 pl-0" id="wrapper">
            
   <!-- Sidebar -->
-  <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+  <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion mt-1 ml-0 pl-0" id="accordionSidebar">
 
         <!-- Divider -->
         <hr class="sidebar-divider my-0">
@@ -141,13 +141,6 @@
 
         <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block">
-
-        <!-- Sidebar Toggler (Sidebar) -->
-        <div class="text-center d-none d-md-inline">
-            <button class="rounded-circle border-0" id="sidebarToggle"></button>
-        </div>
-
-        
   </ul>
 <!-- End of Sidebar -->
             <!-- Content wrapper -->
@@ -155,12 +148,17 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-bold py-3 mb-4" style="text-align: center;"><span class="text-muted fw-light">Configuración /</span> Cuenta</h4>
-
               <div class="row">
-                <div class="col-md-12">
+                <div class="col-sm-12">
                   <div class="card mb-4">
-                    <h5 class="card-header">Detalles del perfil</h5>
+                       <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center  mb-4">
+                        <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-1">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                        <h1 class="h3 mb-0 text-gray-800 text-center">Perfil</h1>
+                    </div>
                     <!-- Account -->
                     <div class="card-body">
                       <div class="d-flex align-items-start align-items-sm-center gap-4">
@@ -184,7 +182,6 @@
                               accept="image/png, image/jpeg"
                             />
                           </label>
-                          
 
                           <p class="text-muted mb-0">Formatos de imagen permitidos: JPG, GIF or PNG. Tamaño máximo de 800K</p>
                         </div>
@@ -194,7 +191,7 @@
                     <div class="card-body">
                       <form id="formAccountSettings" method="POST" onsubmit="return false">
                         <div class="row">
-                          <div class="mb-3 col-md-6">
+                          <div class="mb-3 col-sm-6">
                             <label for="usuario" class="form-label">Usuario</label>
                             <input
                               class="form-control"
@@ -205,7 +202,7 @@
                               autofocus
                             />
                           </div>
-                          <div class="mb-3 col-md-6">
+                          <div class="mb-3 col-sm-6">
                             <label for="firstName" class="form-label">Nombre completo</label>
                             <input
                               class="form-control"
@@ -215,11 +212,11 @@
                               value="Jesus Garcia Martinez"
                             />
                           </div>
-                          <div class="mb-3 col-md-6">
+                          <div class="mb-3 col-sm-6">
                             <label for="password" class="form-label">Contraseña</label>
                             <input class="form-control" type="password" name="password" id="lastName" value="********" />
                           </div>
-                          <div class="mb-3 col-md-6">
+                          <div class="mb-3 col-sm-6">
                             <label for="email" class="form-label">E-mail</label>
                             <input
                               class="form-control"
@@ -230,7 +227,7 @@
                               placeholder="jmazter707@nettual.com"
                             />
                           </div>
-                          <div class="mb-3 col-md-6">
+                          <div class="mb-3 col-sm-6">
                             <label class="form-label" for="phoneNumber">Celular</label>
                             <div class="input-group input-group-merge">
                               <span class="input-group-text">MX (+52)</span>
@@ -244,7 +241,7 @@
                             </div>
                           </div>
                           
-                          <div class="mb-3 col-md-6">
+                          <div class="mb-3 col-sm-6">
                             <label class="form-label" for="country">Género</label>
                             <select id="country" class="select2 form-select">
                               <option value="">Selecciona</option>
@@ -252,7 +249,7 @@
                               <option value="Femenino">Femenino</option>
                             </select>
                           </div>
-                          <div class="mb-3 col-md-6">
+                          <div class="mb-3 col-sm-6">
                             <label for="language" class="form-label">Año de nacimiento</label>
                             <select id="language" class="select2 form-select">
                               <option value="">Selecciona</option>
@@ -304,7 +301,7 @@
                     <option value="2018">2018</option>
                             </select>
                           </div>
-                          <div class="mb-3 col-md-6">
+                          <div class="mb-3 col-sm-6">
                             <label for="timeZones" class="form-label">Equipo</label>
                             <select id="timeZones" class="select2 form-select">
                               <option value="">Selecciona</option>
@@ -353,7 +350,7 @@
                           </div>
                         </div>
                         <div class="mt-2">
-                          <button type="submit" class="btn btn-primary me-2">Guardar</button>
+                          <button type="submit" class="btn btn-primary me-2">Guardar cambios</button>
                           <button type="reset" class="btn btn-outline-secondary">Cancelar</button>
                         </div>
                       </form>
