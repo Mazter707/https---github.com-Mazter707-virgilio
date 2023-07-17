@@ -1,155 +1,148 @@
 
 <?php require ('./layouts/header.php') ?>
 
-<div class="container-fluid ml-0 pl-0" >
+<div class="container-fluid">
 
 <style>
   .content-wrapper{
-    margin-left:1px;
-    padding:1px;
+    margin-left:2px;
+    padding:2px;
   }
 </style>
 
 <div class="d-flex mt-2 ml-0 pl-0" id="wrapper">
            
-  <!-- Sidebar -->
-  <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar -->
+          <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion mt-1 ml-0 pl-0" id="accordionSidebar">
 
-        <!-- Divider -->
-        <hr class="sidebar-divider my-0">
+                <!-- Divider -->
+                <hr class="sidebar-divider my-0">
 
-        <!-- Nav Item - Dashboard -->
-        <li class="nav-item active">
-            <a class="nav-link" href="index.html">
-                <i class=""></i>
-                <span>Escritorio</span></a>
-        </li>
+                <!-- Nav Item - Dashboard -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">
+                        <i class=""></i>
+                        <span>Escritorio</span></a>
+                </li>
 
-        <!-- Divider -->
-        <hr class="sidebar-divider">
+                <!-- Divider -->
+                <hr class="sidebar-divider">
 
-        <!-- Heading -->
-        <div class="sidebar-heading">
-            Perfil
-        </div>
-
-        <!-- Nav Item - Pages Collapse Menu -->
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                aria-expanded="true" aria-controls="collapseTwo">
-                <i class="fas fa-fw "></i>
-                <span>Mi cuenta</span>
-            </a>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Configuracion:</h6>
-                    <a class="collapse-item" href="https://liga.nettual.com/perfil.php">Detalles</a>
-                    <a class="collapse-item" href="https://liga.nettual.com/perfil.php">Ajustes</a>
+                <!-- Heading -->
+                <div class="sidebar-heading">
+                    Perfil
                 </div>
-            </div>
-        </li>
 
-        <!-- Nav Item - Utilities Collapse Menu -->
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fas fa-fw "></i>
-                <span>Chat</span>
-            </a>
-            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Mensajes:</h6>
-                    <a class="collapse-item" href="utilities-color.html">Directos</a>
-                    <a class="collapse-item" href="utilities-border.html">Globales</a>
-                    <a class="collapse-item" href="utilities-animation.html">Redactar</a>
-                    <a class="collapse-item" href="utilities-other.html">Promotor</a>
+                <!-- Nav Item - Pages Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="true" aria-controls="collapseTwo">
+                        <i class="fas fa-fw "></i>
+                        <span>Mi cuenta</span>
+                    </a>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Configuracion:</h6>
+                            <a class="collapse-item" href="https://liga.nettual.com/perfil.php">Detalles</a>
+                            <a class="collapse-item" href="https://liga.nettual.com/perfil.php">Ajustes</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Nav Item - Utilities Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                        aria-expanded="true" aria-controls="collapseUtilities">
+                        <i class="fas fa-fw "></i>
+                        <span>Chat</span>
+                    </a>
+                    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                        data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Mensajes:</h6>
+                            <a class="collapse-item" href="utilities-color.html">Directos</a>
+                            <a class="collapse-item" href="utilities-border.html">Globales</a>
+                            <a class="collapse-item" href="utilities-animation.html">Redactar</a>
+                            <a class="collapse-item" href="utilities-other.html">Promotor</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider">
+
+                <!-- Heading -->
+                <div class="sidebar-heading">
+                    Eventos
                 </div>
-            </div>
-        </li>
 
-        <!-- Divider -->
-        <hr class="sidebar-divider">
+                
 
-        <!-- Heading -->
-        <div class="sidebar-heading">
-            Eventos
-        </div>
+                <!-- Nav Item - Charts -->
+                <li class="nav-item">
+                    <a class="nav-link" href="charts.html">
+                        <i class="fas fa-fw "></i>
+                        <span>Próximos</span></a>
+                </li>
 
-        
+                <!-- Nav Item - Tables -->
+                <li class="nav-item">
+                    <a class="nav-link" href="tables.html">
+                        <i class="fas fa-fw "></i>
+                        <span>Pasados</span></a>
+                </li>
 
-        <!-- Nav Item - Charts -->
-        <li class="nav-item">
-            <a class="nav-link" href="charts.html">
-                <i class="fas fa-fw "></i>
-                <span>Próximos</span></a>
-        </li>
+                <!-- Divider -->
+                <hr class="sidebar-divider d-none d-md-block">
 
-        <!-- Nav Item - Tables -->
-        <li class="nav-item">
-            <a class="nav-link" href="tables.html">
-                <i class="fas fa-fw "></i>
-                <span>Pasados</span></a>
-        </li>
+                <!-- Heading -->
+                <div class="sidebar-heading">
+                    Resultados
+                </div>
 
-        <!-- Divider -->
-        <hr class="sidebar-divider d-none d-md-block">
+                
 
-        <!-- Heading -->
-        <div class="sidebar-heading">
-            Resultados
-        </div>
+                <!-- Nav Item - Charts -->
+                <li class="nav-item">
+                    <a class="nav-link" href="charts.html">
+                        <i class="fas fa-fw "></i>
+                        <span>Personales</span></a>
+                </li>
 
-        
+                <!-- Nav Item - Tables -->
+                <li class="nav-item">
+                    <a class="nav-link" href="tables.html">
+                        <i class="fas fa-fw "></i>
+                        <span>Equipo</span></a>
+                </li>
 
-        <!-- Nav Item - Charts -->
-        <li class="nav-item">
-            <a class="nav-link" href="charts.html">
-                <i class="fas fa-fw "></i>
-                <span>Personales</span></a>
-        </li>
+                <!-- Divider -->
+                <hr class="sidebar-divider d-none d-md-block">
+                <!-- Heading -->
+                <div class="sidebar-heading">
+                    Mercado
+                </div>
 
-        <!-- Nav Item - Tables -->
-        <li class="nav-item">
-            <a class="nav-link" href="tables.html">
-                <i class="fas fa-fw "></i>
-                <span>Equipo</span></a>
-        </li>
+                
 
-        <!-- Divider -->
-        <hr class="sidebar-divider d-none d-md-block">
-        <!-- Heading -->
-        <div class="sidebar-heading">
-            Mercado
-        </div>
+                <!-- Nav Item - Charts -->
+                <li class="nav-item">
+                    <a class="nav-link" href="charts.html">
+                        <i class="fas fa-fw"></i>
+                        <span>Mis compras</span></a>
+                </li>
 
-        
+                <!-- Nav Item - Tables -->
+                <li class="nav-item">
+                    <a class="nav-link" href="tables.html">
+                        <i class="fas fa-fw"></i>
+                        <span>Mis ventas</span></a>
+                </li>
 
-        <!-- Nav Item - Charts -->
-        <li class="nav-item">
-            <a class="nav-link" href="charts.html">
-                <i class="fas fa-fw"></i>
-                <span>Mis compras</span></a>
-        </li>
-
-        <!-- Nav Item - Tables -->
-        <li class="nav-item">
-            <a class="nav-link" href="tables.html">
-                <i class="fas fa-fw"></i>
-                <span>Mis ventas</span></a>
-        </li>
-
-        <!-- Divider -->
-        <hr class="sidebar-divider d-none d-md-block">
-
-        <!-- Sidebar Toggler (Sidebar) -->
-        <div class="text-center d-none d-md-inline">
-            <button class="rounded-circle border-0" id="sidebarToggle"></button>
-        </div>
-
-        
-  </ul>
-<!-- End of Sidebar -->
+                <!-- Divider -->
+                <hr class="sidebar-divider d-none d-md-block">
+          </ul>
+        <!-- End of Sidebar -->
             <!-- Content wrapper -->
           <div class="content-wrapper">
             <!-- Content -->
