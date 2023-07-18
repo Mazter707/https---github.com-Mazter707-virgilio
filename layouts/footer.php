@@ -35,7 +35,7 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>laliga
+            <i class="fa-solid fa-link"></i>laliga
           </h6>
           <p>
             Te dotamos de herramientas para que la organización de tus carreras se conviertan en el evento más esperado por los ciclistas !
@@ -137,5 +137,7 @@
     <!-- Page level custom scripts -->
     <script src="js/demo/chart-area-demo.js"></script>
     <script src="js/demo/chart-pie-demo.js"></script>
+
+    
   </body>
 </html>

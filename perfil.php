@@ -21,7 +21,7 @@
                 <!-- Nav Item - Dashboard -->
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">
-                        <i class=""></i>
+                        <i class="fs-6"></i>
                         <span>Escritorio</span></a>
                 </li>
 
@@ -29,31 +29,23 @@
                 <hr class="sidebar-divider">
 
                 <!-- Heading -->
-                <div class="sidebar-heading">
+                <div class="sidebar-heading ">
                     Perfil
                 </div>
 
                 <!-- Nav Item - Pages Collapse Menu -->
+                <!-- Nav Item - Charts -->
                 <li class="nav-item">
-                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                        aria-expanded="true" aria-controls="collapseTwo">
-                        <i class="fas fa-fw "></i>
-                        <span>Mi cuenta</span>
-                    </a>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                        <div class="bg-white py-2 collapse-inner rounded">
-                            <h6 class="collapse-header">Configuracion:</h6>
-                            <a class="collapse-item" href="https://liga.nettual.com/perfil.php">Detalles</a>
-                            <a class="collapse-item" href="https://liga.nettual.com/perfil.php">Ajustes</a>
-                        </div>
-                    </div>
+                    <a class="nav-link" href="charts.html">
+                        <i class="fas fa-fw fs-6"></i>
+                        <span>Cuenta</span></a>
                 </li>
 
                 <!-- Nav Item - Utilities Collapse Menu -->
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                         aria-expanded="true" aria-controls="collapseUtilities">
-                        <i class="fas fa-fw "></i>
+                        <i class="fas fa-fw fs-6"></i>
                         <span>Chat</span>
                     </a>
                     <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
@@ -72,7 +64,7 @@
                 <hr class="sidebar-divider">
 
                 <!-- Heading -->
-                <div class="sidebar-heading">
+                <div class="sidebar-heading ">
                     Eventos
                 </div>
 
@@ -81,14 +73,14 @@
                 <!-- Nav Item - Charts -->
                 <li class="nav-item">
                     <a class="nav-link" href="charts.html">
-                        <i class="fas fa-fw "></i>
+                        <i class="fas fa-fw fs-6"></i>
                         <span>Próximos</span></a>
                 </li>
 
                 <!-- Nav Item - Tables -->
                 <li class="nav-item">
                     <a class="nav-link" href="tables.html">
-                        <i class="fas fa-fw "></i>
+                        <i class="fas fa-fw fs-6"></i>
                         <span>Pasados</span></a>
                 </li>
 
@@ -96,7 +88,7 @@
                 <hr class="sidebar-divider d-none d-md-block">
 
                 <!-- Heading -->
-                <div class="sidebar-heading">
+                <div class="sidebar-heading ">
                     Resultados
                 </div>
 
@@ -105,21 +97,21 @@
                 <!-- Nav Item - Charts -->
                 <li class="nav-item">
                     <a class="nav-link" href="charts.html">
-                        <i class="fas fa-fw "></i>
+                        <i class="fas fa-fw fs-6"></i>
                         <span>Personales</span></a>
                 </li>
 
                 <!-- Nav Item - Tables -->
                 <li class="nav-item">
                     <a class="nav-link" href="tables.html">
-                        <i class="fas fa-fw "></i>
+                        <i class="fas fa-fw fs-6"></i>
                         <span>Equipo</span></a>
                 </li>
 
                 <!-- Divider -->
                 <hr class="sidebar-divider d-none d-md-block">
                 <!-- Heading -->
-                <div class="sidebar-heading">
+                <div class="sidebar-heading ">
                     Mercado
                 </div>
 
@@ -128,14 +120,14 @@
                 <!-- Nav Item - Charts -->
                 <li class="nav-item">
                     <a class="nav-link" href="charts.html">
-                        <i class="fas fa-fw"></i>
+                        <i class="fas fa-fw fs-6"></i>
                         <span>Mis compras</span></a>
                 </li>
 
                 <!-- Nav Item - Tables -->
                 <li class="nav-item">
                     <a class="nav-link" href="tables.html">
-                        <i class="fas fa-fw"></i>
+                        <i class="fas fa-fw fs-6"></i>
                         <span>Mis ventas</span></a>
                 </li>
 
@@ -151,11 +143,17 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="card mb-4">
-                    <h5 class="card-header text-center">Detalles del perfil</h5>
+                  <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <!-- Sidebar Toggle (Topbar) -->
+                        <button id="sidebarToggleTop" class="btn btn-link d-md-none mr-3">
+                            <i class="fa fa-chevron-left" onclick="changeIcon(this)"></i>
+                        </button>
+                    </div>
+                   
                     <!-- Account -->
                     <div class="card-body">
                     <div class="card-body text-center">
-                      <img src="https://liga.nettual.com/assets/img/me-removebg-preview.png" alt="avatar"
+                      <img src="https://liga.nettual.com/assets/img/logo-perfil.png" alt="avatar"
                         class="rounded-circle img-fluid" style="width: 150px;">
                       <h5 class="my-3">Mazter707</h5>
                     </div>
@@ -167,7 +165,7 @@
           <div class="card-body">
             <div class="row">
               <div class="col-sm-3">
-                <p class="mb-0">Nombre completo</p>
+                <p class="mb-0 fs-6">Nombre completo</p>
               </div>
               <div class="col-sm-9">
                 <p class="text-muted mb-0">Jesus Garcia Martinez</p>
@@ -176,7 +174,7 @@
             <hr>
             <div class="row">
               <div class="col-sm-3">
-                <p class="mb-0">Email</p>
+                <p class="mb-0 fs-6">Email</p>
               </div>
               <div class="col-sm-9">
                 <p class="text-muted mb-0">mazter707@laliga.run</p>
@@ -185,7 +183,7 @@
             <hr>
             <div class="row">
               <div class="col-sm-3">
-                <p class="mb-0">Celular</p>
+                <p class="mb-0 fs-6">Celular</p>
               </div>
               <div class="col-sm-9">
                 <p class="text-muted mb-0">(097) 234-5678</p>
@@ -194,7 +192,7 @@
             <hr>
             <div class="row">
               <div class="col-sm-3">
-                <p class="mb-0">Género</p>
+                <p class="mb-0 fs-6">Género</p>
               </div>
               <div class="col-sm-9">
                 <p class="text-muted mb-0">Masculino</p>
@@ -203,7 +201,7 @@
             <hr>
             <div class="row">
               <div class="col-sm-3">
-                <p class="mb-0">Año de nacimiento</p>
+                <p class="mb-0 fs-6">Año de nacimiento</p>
               </div>
               <div class="col-sm-9">
                 <p class="text-muted mb-0">1975</p>
@@ -212,7 +210,7 @@
             <hr>
             <div class="row">
               <div class="col-sm-3">
-                <p class="mb-0">Equipo</p>
+                <p class="mb-0 fs-6">Equipo</p>
               </div>
               <div class="col-sm-9">
                 <p class="text-muted mb-0">Yapur MX</p>
@@ -252,4 +250,5 @@
             </div>
         </div>
 </div>
+<script src="js/change-icon.js"></script>
   <?php require ('./layouts/footer.php') ?>
