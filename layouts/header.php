@@ -129,7 +129,7 @@
             <a class="dropdown-item" href="https://liga.nettual.com/login.php">Ingresar</a>
           </li>
           <li>
-            <a class="dropdown-item" href="https://liga.nettual.com/perfil.php">Configuración</a>
+            <a class="dropdown-item" href="https://liga.nettual.com/perfil.php">Perfil</a>
           </li>
           <li>
             <a class="dropdown-item" href="https://liga.nettual.com/servidor/login/logout.php">Salir</a>
