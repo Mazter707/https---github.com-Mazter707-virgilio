@@ -156,6 +156,9 @@
                       <img src="https://liga.nettual.com/assets/img/logo-perfil.png" alt="avatar"
                         class="rounded-circle img-fluid" style="width: 150px;">
                       <h5 class="my-3">Mazter707</h5>
+                      <a class="btn btn-primary" href="https://liga.nettual.com/foto_perfil.php" role="button"
+                      >Cambiar foto</a
+                      >
                     </div>
                   </div>
                 <hr class="my-0" />
