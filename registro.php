@@ -21,11 +21,7 @@
           </div>
           <div class="card-body p-4 p-sm-5">
             <h5 class="card-title text-center mb-5 fw-light fs-1 " >Registro</h5>
-<<<<<<< HEAD
-            <form name= "addForm" class="needs-validation"  novalidate  action="servidor/registro/registrar.php"  method="post" autocomplete="off">
-=======
             <form class="needs-validation" novalidate action="servidor/registro/registrar.php" name ="addForm" method="post" autocomplete="off">
->>>>>>> e223f380b473d6173174031a8fde61c49936ad52
 
               <div class="form-floating mb-3 ">
                 <input type="text" class="form-control" id="usuario" name="usuario"
@@ -81,11 +77,7 @@
 
               <div class="form-floating mb-3">
                 <input type="text"  class="form-control" id="celular" name="celular"
-<<<<<<< HEAD
-                 placeholder="999 000 00 00" autocomplete="off" >
-=======
                  placeholder="999 000 00 00" autocomplete="off" required>
->>>>>>> e223f380b473d6173174031a8fde61c49936ad52
                 <label for="celular">Celular</label>
 
                 <div class="valid-feedback">
@@ -233,11 +225,7 @@
              
 
               <div class="d-grid mb-2">
-<<<<<<< HEAD
-                <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase"  type="submit" onclick="validarFormulario();" >Registrar</button>
-=======
                 <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase" onclick="validarFormulario();" type="submit">Registrar</button>
->>>>>>> e223f380b473d6173174031a8fde61c49936ad52
               </div>
 
               <a class="d-block text-center mt-2 small" href="login.php">Ya tienes una cuenta? Ingresa!</a>
@@ -254,33 +242,6 @@
 
 
 
-
-    <script>
-       (//Funcion para validar el telefono
-      function validarTelefono(parametro){
-        var patron = /^\d{10}$/;
-
-        if(!patron.test(parametro)){
-          return false;
-        }else{
-          return true;
-        }
-      }
-       
-
-      function validarFormulario() {
-        //alert("Todo en orden");
-        var formulario = document.addForm;
-
-        if(validarTelefono(formulario.celular.value) == false){
-
-          alert("Favor de ingreasr un número de teléfono válido, ejemplo 9998887766");
-          formulario.celular.value = "";
-          formulario.celular.focus();
-        }
-      })
-
-    </script>
 
     <script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
@@ -304,8 +265,6 @@
     })
 })()
     </script>
-<<<<<<< HEAD
-=======
 
 
 <script>
@@ -334,6 +293,5 @@
 </script>
 
 
->>>>>>> e223f380b473d6173174031a8fde61c49936ad52
   </body>
 </html>
